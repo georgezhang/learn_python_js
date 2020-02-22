@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cad7bcb0-b7b8-40fd-a2b1-01fe6453600c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ccc" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XGnkynFzCNCjKLWtEio61ZNEWi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zzz" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zzz" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.j4">
+    <configuration name="2019j4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ccc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zzz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zzz/2019j4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ccc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/abc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="j4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ccc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/j4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ccc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="timemachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ccc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2019" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2019/timemachine.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.j4" />
+        <item itemvalue="Python.timemachine" />
+        <item itemvalue="Python.abc" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.2019j4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cad7bcb0-b7b8-40fd-a2b1-01fe6453600c" name="Default Changelist" comment="" />
+      <created>1580681445761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580681445761</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="382" key="GridCell.Tab.0.bottom" timestamp="1582081847574">
+      <screen x="-75" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="528" key="GridCell.Tab.0.bottom/0.23.1680.998/-143.-1177.1920.1177@-143.-1177.1920.1177" timestamp="1580873527137" />
+    <state width="1899" height="382" key="GridCell.Tab.0.bottom/0.23.1680.998/-75.-1177.1920.1177@-75.-1177.1920.1177" timestamp="1582081847574" />
+    <state width="1659" height="376" key="GridCell.Tab.0.bottom/0.23.1680.998@0.23.1680.998" timestamp="1580949724447" />
+    <state width="1899" height="545" key="GridCell.Tab.0.bottom/1680.-11.1920.1148/0.23.1680.1027@1680.-11.1920.1148" timestamp="1582058123053" />
+    <state width="1899" height="311" key="GridCell.Tab.0.bottom/1680.-11.1920.1177/0.23.1680.998@1680.-11.1920.1177" timestamp="1582063455737" />
+    <state width="1899" height="376" key="GridCell.Tab.0.bottom/1680.-319.1920.1177/0.23.1680.998@1680.-319.1920.1177" timestamp="1580943832740" />
+    <state width="1899" height="382" key="GridCell.Tab.0.center" timestamp="1582081847574">
+      <screen x="-75" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="528" key="GridCell.Tab.0.center/0.23.1680.998/-143.-1177.1920.1177@-143.-1177.1920.1177" timestamp="1580873527136" />
+    <state width="1899" height="382" key="GridCell.Tab.0.center/0.23.1680.998/-75.-1177.1920.1177@-75.-1177.1920.1177" timestamp="1582081847574" />
+    <state width="1659" height="376" key="GridCell.Tab.0.center/0.23.1680.998@0.23.1680.998" timestamp="1580949724446" />
+    <state width="1899" height="545" key="GridCell.Tab.0.center/1680.-11.1920.1148/0.23.1680.1027@1680.-11.1920.1148" timestamp="1582058123052" />
+    <state width="1899" height="311" key="GridCell.Tab.0.center/1680.-11.1920.1177/0.23.1680.998@1680.-11.1920.1177" timestamp="1582063455736" />
+    <state width="1899" height="376" key="GridCell.Tab.0.center/1680.-319.1920.1177/0.23.1680.998@1680.-319.1920.1177" timestamp="1580943832739" />
+    <state width="1899" height="382" key="GridCell.Tab.0.left" timestamp="1582081847574">
+      <screen x="-75" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="528" key="GridCell.Tab.0.left/0.23.1680.998/-143.-1177.1920.1177@-143.-1177.1920.1177" timestamp="1580873527136" />
+    <state width="1899" height="382" key="GridCell.Tab.0.left/0.23.1680.998/-75.-1177.1920.1177@-75.-1177.1920.1177" timestamp="1582081847574" />
+    <state width="1659" height="376" key="GridCell.Tab.0.left/0.23.1680.998@0.23.1680.998" timestamp="1580949724446" />
+    <state width="1899" height="545" key="GridCell.Tab.0.left/1680.-11.1920.1148/0.23.1680.1027@1680.-11.1920.1148" timestamp="1582058123052" />
+    <state width="1899" height="311" key="GridCell.Tab.0.left/1680.-11.1920.1177/0.23.1680.998@1680.-11.1920.1177" timestamp="1582063455735" />
+    <state width="1899" height="376" key="GridCell.Tab.0.left/1680.-319.1920.1177/0.23.1680.998@1680.-319.1920.1177" timestamp="1580943832738" />
+    <state width="1899" height="382" key="GridCell.Tab.0.right" timestamp="1582081847574">
+      <screen x="-75" y="-1177" width="1920" height="1177" />
+    </state>
+    <state width="1899" height="528" key="GridCell.Tab.0.right/0.23.1680.998/-143.-1177.1920.1177@-143.-1177.1920.1177" timestamp="1580873527137" />
+    <state width="1899" height="382" key="GridCell.Tab.0.right/0.23.1680.998/-75.-1177.1920.1177@-75.-1177.1920.1177" timestamp="1582081847574" />
+    <state width="1659" height="376" key="GridCell.Tab.0.right/0.23.1680.998@0.23.1680.998" timestamp="1580949724446" />
+    <state width="1899" height="545" key="GridCell.Tab.0.right/1680.-11.1920.1148/0.23.1680.1027@1680.-11.1920.1148" timestamp="1582058123053" />
+    <state width="1899" height="311" key="GridCell.Tab.0.right/1680.-11.1920.1177/0.23.1680.998@1680.-11.1920.1177" timestamp="1582063455736" />
+    <state width="1899" height="376" key="GridCell.Tab.0.right/1680.-319.1920.1177/0.23.1680.998@1680.-319.1920.1177" timestamp="1580943832739" />
+    <state x="394" y="-950" key="SettingsEditor" timestamp="1582077960339">
+      <screen x="-75" y="-1177" width="1920" height="1177" />
+    </state>
+    <state x="326" y="-950" key="SettingsEditor/0.23.1680.998/-143.-1177.1920.1177@-143.-1177.1920.1177" timestamp="1580681637423" />
+    <state x="394" y="-950" key="SettingsEditor/0.23.1680.998/-75.-1177.1920.1177@-75.-1177.1920.1177" timestamp="1582077960339" />
+  </component>
+</project>
