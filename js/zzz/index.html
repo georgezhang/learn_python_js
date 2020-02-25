@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<img id="tile01" src="tile01.png" onload="loadbackground();" style="display: none;" />
+<canvas id="myCanvas" width="800" height="400" style="border:1px solid #000000;"></canvas>
+
+
+<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    ctx.fillStyle = "purple";
+    ctx.fillRect(0, 0, 800, 400);
+
+    function loadbackground() {
+        var tile01 = document.getElementById("tile01");
+
+        // width: 250px, height: 224px
+        var start_x = 0;
+        var start_y = 0;
+        while (start_y <= 400) {
+            start_x = 0;
+            while (start_x <= 800) {
+                ctx.drawImage(tile01, start_x, start_y);
+                start_x = start_x + 250;
+            }
+
+            start_y = start_y + 224
+        }
+    }
+
+    function movePlayer(x, y) {
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(x, y, 60, 60);
+    }
+
+    var player_x = 0;
+    var player_y = 0;
+    function renderGame() {
+        loadbackground();
+        player_x = player_x + 1;
+        player_y = player_y + 1;
+        movePlayer(player_x, player_y);
+
+    }
+
+    setInterval(renderGame, 1000 / 60);
+
+
+</script>
