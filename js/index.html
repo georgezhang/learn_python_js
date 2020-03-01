@@ -25,13 +25,49 @@
         }
         var player_x = 0;
         var player_y = 0;
+        var x_direction = 'right';
+        var y_direction = 'down';
         // in game, they called it render.
         function show() {
             loadtile();
             ctx.fillStyle = 'red';
             ctx.fillRect(player_x, player_y, 50, 50);
-            player_x = player_x + 2;
-            player_y = player_y + 2;
+
+            // temporary save player old position for comparison
+            var old_player_x = player_x;
+            var old_player_y = player_y;
+
+            // x direction
+            if (x_direction == 'right') {
+                player_x = player_x + 2;
+            } else if (x_direction == 'left') {
+                player_x = player_x - 2;
+            }
+
+            // hit right side
+            if (old_player_x + 50 - 800 <= 0 && player_x + 50 - 800 > 0) {
+                x_direction = 'left';
+            // hit left side
+            } else if (old_player_x >= 0 && player_x < 0) {
+                x_direction = 'right';
+            }
+
+            // y direction
+            if (y_direction == 'up') {
+                player_y = player_y - 2;
+            } else if (y_direction == 'down') {
+                player_y = player_y + 2;
+            }
+
+            // hit bottom side
+            if (old_player_y + 50 - 400 <= 0 && player_y + 50 - 400 > 0) {
+                y_direction = 'up';
+            // hit top side
+            } else if (old_player_y >= 0 && player_y < 0) {
+                y_direction = 'down';
+            }
+
+            
         }
         //fps 1 second 60 frames
         setInterval(show, 1000 / 60);
