@@ -1,24 +1,65 @@
-olds = [('AA', 2), ('AB', 2), ('B', 1)]
-min_old = 1
-visited = {}
+members = [1, 2, 3]
+STEPS = 2
 
-def find_match(str1, i):
-    if len(str1) < min_old:
-        return []
+'''
+[
+    [1, 1, 1],
+    [1, 1, 2],
+    [1, 1, 3],
+    ....
+]    
 
-    if str1 in visited:
-        return [(i + v[0], v[1]) for v in visited[str1]]
+1. [[1], [2], [3]], loop all members to create the list
+2. [
+     [1, 1], [1, 2], [1, 3],
+     [2, 1], [2, 2], [2, 3],
+    ]
+from step 1, we loop all members, prepend the to them each time
+3. simplify the process
+4. find out the way to do all 3 steps
+'''
+out_list = []
+m_len = len(members)
 
-    pos = []
-    if str1[0: olds[0][1]] == olds[0][0]:
-        pos.append((i, 0))
-    if str1[0: olds[1][1]] == olds[1][0]:
-        pos.append((i, 1))
-    if str1[0: olds[2][1]] == olds[2][0]:
-        pos.append((i,2))
-    pos = pos + find_match(str1[1:], i + 1)
+for i in range(m_len):
+    out_list.append([members[i]])
+print('out_list')
+print(out_list)
 
-    visited[str1] = pos # store for subsequnce search
-    return pos
+out_list1 = []
+for i in range(m_len):
+    for j in range(len(out_list)):
+        out_list1.append([members[i]] + out_list[j])
 
-print(find_match('AB', 0))
+print('out_list1')
+print(out_list1)
+
+out_list2 = []
+for i in range(m_len):
+    for j in range(len(out_list1)):
+        out_list2.append([members[i]] + out_list1[j])
+
+print('out_list2')
+print(out_list2)
+
+'''
+output as the next level's output
+'''
+
+def bunce(out_list_n, step):
+    if (step > STEPS):
+        return out_list_n
+
+    out_list_n_1 = []
+    if len(out_list_n) == 0:
+        for i in range(m_len):
+            out_list_n_1.append([members[i]])
+    else:
+        for i in range(m_len):
+            for j in range(len(out_list_n)):
+                out_list_n_1.append([members[i]] + out_list_n[j])
+    print('step:' + str(step))
+    print(out_list_n_1)
+    return bunce(out_list_n_1, step + 1)
+
+print(bunce([], 1))

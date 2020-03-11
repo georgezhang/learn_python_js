@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <body>
     <img id="f1" src="PNG/Frame-1.png" style="display: none;" />
-    <img id="f2" src="PNG/frame-2.png" style="display: none;" />
-    <img id="f3" src="PNG/frame-3.png" style="display: none;" />
-    <img id="f4" src="PNG/frame-4.png" style="display: none;" />
-    <img id="f1-flip" src="PNG/Frame-1-flip.png" style="display: none;" />
-
+    <img id="f2" src="PNG/Frame-2.png" style="display: none;" />
+    <img id="f3" src="PNG/Frame-3.png" style="display: none;" />
+    <img id="f4" src="PNG/Frame-4.png" style="display: none;" />
     <img id="tile01" src="tile01.png" onload="loadtile();" style="display: none;" />
     <canvas id="myCanvas" width="800" height="400" style="border:2px solid red;">
     </canvas>
@@ -33,25 +31,26 @@
         var player_y = 0;
         var x_direction = 'right';
         var y_direction = 'down';
-        var f = 1;
+        var player_frame = 1;
         // in game, they called it render.
         function show() {
             loadtile();
             // ctx.fillStyle = 'red';
             // ctx.fillRect(player_x, player_y, 50, 50);
 
-            ctx.fillStyle = 'red';
-            ctx.fillRect(200, 200, 50, 200);
-
-            ctx.fillStyle = 'red';
-            ctx.fillRect(400, 0, 50, 200);
-
-            var frame = document.getElementById('f' + Math.floor(f));
-            f = f + 0.2; 
-            if (f > 4) f = 1;
-
-            ctx.drawImage(frame, 0, 0, 717, 610, player_x, player_y, 50, 50);
-
+            // draw player
+            var frame = document.getElementById('f' + (Math.floor(player_frame)).toString());
+            player_frame = player_frame + 0.1;
+            if (player_frame > 4) player_frame = 1;
+            if (x_direction == 'right') {
+                ctx.drawImage(frame, 0, 0, 717, 610, player_x, player_y, 50, 50);
+            } else {
+                ctx.save();
+                ctx.translate(player_x, player_y);
+                ctx.scale(-1, 1);
+                ctx.drawImage(frame, 0, 0, 717, 610, 0, 0, 50, 50);
+                ctx.restore();
+            }
             // temporary save player old position for comparison
             var old_player_x = player_x;
             var old_player_y = player_y;
