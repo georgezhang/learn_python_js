@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cad7bcb0-b7b8-40fd-a2b1-01fe6453600c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2018/2018j2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018/2018j3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018/2018j31.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018/2018j4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2018/emojii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zzz/time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/b1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../js/b1/index.html" afterDir="false" />
     </list>
